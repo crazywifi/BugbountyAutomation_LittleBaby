@@ -48,7 +48,7 @@ python3 Scripts/ctfr/ctfr.py -d $1 -o tmp/ctfr_$1.txt
 
 #Github_Subdomain
 echo "Github Subdomain enumerate.."
-python3 Scripts/github-search/github-subdomains.py -t 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 -d $1 >>  tmp/Github_Subdomain.txt
+python3 Scripts/github-search/github-subdomains.py -t ghp_abnEAsfsdfsFmM75vgiDsdsadaXUSfv2W2Jfsdfsdf8z0R -d $1 >>  tmp/Github_Subdomain.txt
 
 
 #Finding ASN Number and IP Address list for manual port scanning
